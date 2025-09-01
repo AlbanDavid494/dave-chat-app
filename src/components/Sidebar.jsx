@@ -69,7 +69,7 @@ const Sidebar = ({onSelectChat}) => {
         }
 
   return (
-    <section className="w-80 border-r border-gray-200 dark:border-gray-700 flex flex-col h-full">
+    <section className="w-full md:w-80 border-r border-gray-200 dark:border-gray-700 flex flex-col h-full">
       <div className="p-4 border-b border-gray-200 dark:border-gray-700 flex justify-between items-center">
         <div className="flex items-center">
             <FaCommentDots className="w-7 h-7 text-purple-500 mr-2" />

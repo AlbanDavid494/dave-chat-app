@@ -22,8 +22,8 @@ useEffect(() => {
 const avatar = activeChat.conversationName?.charAt(0) || 'U';
 
   return (
-    <section className="flex flex-1 flex-col">
-     <div className="p-4 border-b border-gray-200 dark:border-gray-700 flex items-center">
+    <section className="flex flex-1 flex-col display-none">
+     <div className="p-4 border-b border-gray-200 bg-gray-50 dark:bg-gray-900 dark:border-gray-700 flex items-center">
       <div className="w-10 h-10 rounded-full bg-purple-500 flex items-center justify-center text-white font-bold mr-3">
         {avatar}
       </div>
